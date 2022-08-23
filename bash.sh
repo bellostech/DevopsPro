@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt update
-apt install -y jenkin
+apt install -y jenkins
 systemctl start jenkins
 usermod -aG docker jenkins
 
